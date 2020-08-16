@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <!-- Meu css modificado-->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css"></link>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>Uma Vida com Cristo</title>
+
+    <!--ESTILOS CSS PARA ALGUNS ELEMENTOS-->
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+    <nav id="topo" class="navbar fixed-top navbar-expand-lg navbar-light bg-gradient-light">
+
+        <div class="container">
+
+            <a class="navbar-brand h1 mb-0 text-dark justify-content-center" href="index.html"><img src="images/web-logo.png" width="150" height="70" alt="Página inicial"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon my-toggler"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown text-dark">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" id="navDrop">ESTUDOS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">ESTUDO 1</a>
+                            <a class="dropdown-item">ESTUDO 2</a>
+                            <a class="dropdown-item">ESTUDO 3</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">DEVOCIONAIS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contato.html">CONTATO</a>
+                    </li>
+
+                    <li class="nav-item">
+                            <a id="about" class="nav-link text-dark" href="about.html">SOBRE</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" id="navDrop"><img src="images/icons/user.png" alt="" width="40" height="40"></a>
+                                    <div class="dropdown-menu">
+                                            <a class="dropdown-item">PERFIL</a>
+                                            <a class="dropdown-item">MENSAGENS</a>
+                                            <a class="dropdown-item">SAIR</a>
+                                    </div>
+                        </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control ml-1 mr-1 border border-dark rounded" type="search" placeholder="Ex: Jesus Cristo">
+
+                </input>
+
+                <button class="btn btn-outline-dark" type="submit">
+                        OK
+                    </button>
+
+                </form>
+
+                <ul class="navbar-nav ml-2">
+                    <button class="btn btn-outline-dark mt-auto" type="submit">LOGIN</button>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+ <div id="main" class="container">
+     <!--CAROUSEL DA PÁGINA-->
+
+            <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="container"> 
+                            <img src="images/000E275EAB65-1.jpg" class="img-fluid d-block" alt="texto">
+                            <div class="carousel-caption d-none d-md-block text-light"> 
+                                <h3>Construção do site em andamento</h3>
+                                <p>Aqui estamos aprendendo a usar um carousel para as principais informações do site</p>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="carousel-item">
+                            <div class="container"> 
+                                <img src="images/facebook.jpg" class="img-fluid d-block" alt="texto">
+                                <div class="carousel-caption d-none d-md-block text-light"> 
+                                        <h3>Segunda imagem do carousel</h3>
+                                        <p>Aqui estamos na segunda imagem do carousel!</p>
+                                    </div>
+                            </div>
+                        </div>
+
+                    <div class="carousel-item">
+                            <div class="container">
+                                <img src="images/00E0B377896E-1.jpg" class="img-fluid d-block" alt="texto">
+                                <div class="carousel-caption d-none d-md-block text-light"> 
+                                        <h3>E, por último, a terceira!</h3>
+                                        <p>Turu bão contigo?</p>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                        
+                            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="sr-only">Próximo</span>
+                                </a>
+
+                </div>
+
+
+
+
+
+
+
+
+            <!--CARDS DA PÁGINA-->
+            <div class="container my-5">
+
+
+
+                <div class="row">
+
+                    <div class="col justify-content-center">
+
+                            <h2 class="justify-content-center text-dark mx-2 my-2">Se liga nas novidades</h2>
+                                
+                            <div class="card">
+                                    <img class=" tumblr card-img-top" src="images/000E275EAB65-1.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Meu primeiro título!</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted"> Confira alguns aspectos elementares</h6>
+                                        <p class="card-text">Conteúdo do card. Aqui ficarão muitas coisas interessantes!</p>
+                                        <button class="btn btn-outline-dark" type="submit" data-toggle="modal" data-target="#siteModal">Clique aqui!</button>
+                                        <button class="btn btn-outline-dark" type="submit">Share</button>
+
+                                    </div>
+                                </div>
+        
+        
+        
+                                    <div class="card">
+                                            <img class="tumblr card-img-top" src="images/00BEEAFACF92-1.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title"> Meu primeiro título!</h4>
+                                                <h6 class="card-subtitle mb-2 text-muted"> Confira alguns aspectos elementares</h6>
+                                                <p class="card-text">Conteúdo do card. Aqui ficarão muitas coisas interessantes!</p>
+                                                <button class="btn btn-outline-dark" type="submit" data-toggle="modal" data-target="#siteModal">Clique aqui!</button>
+                                                <button class="btn btn-outline-dark" type="submit">Share</button>
+                                            </div>
+                                        </div>
+                        
+        
+        
+                                        <div class="card">
+                                                <img class="tumblr card-img-top" src="images/04.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title"> Meu primeiro título!</h4>
+                                                    <h6 class="card-subtitle mb-2 text-muted"> Confira alguns aspectos elementares</h6>
+                                                    <p class="card-text">Conteúdo do card. Aqui ficarão muitas coisas interessantes!</p>
+                                                    <button class="btn btn-outline-dark" type="submit" data-toggle="modal" data-target="#siteModal">Clique aqui!</button>
+                                                    <button class="btn btn-outline-dark" type="submit">Share</button>
+                                                </div>
+                                            </div>
+                    </div>
+
+
+                    <div class="col-2 justify-content-center">
+
+                            <div class="text-card bg-primary">
+                                Olha o que tem de novo aqui!
+                            </div> 
+                </div>
+                    
+                </div>
+            </div>
+
+    </div>
+
+    <!--Modal Caixa de aviso, diálogo-->
+
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Título exemplo</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>x</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-6">
+                                    <p>Chegamos ao fim do poço, aquele problema nos consumiu por completo. A força que tínhamos não se faz mais presente e olhamos para o alto, buscando, quem sabe, um “milagre”. Agimos por nossa própria conta; com o advento da dor vemos que não somos capazes. A quem iremos recorrer?</p>
+                                    <p>
+                                            Por conta da ignorância e dureza de nossos próprios corações, tomamos à frente de praticamente todas as situações. O mundo nos empurra para a sensação de autonomia e superioridade. Utilizam a premissa do dinheiro, méritos e entre outras coisas mais. Bom, quando temos de morrer, morremos, não? O que difere essas pessoas no topo do poder é o quanto de conforto terá em seus últimos dias. O destino final é determinado por Deus, não há quem mude. 
+                                            Entregue seus problemas a Deus. Você não tem a obrigação de resolver todas as mazelas do mundo e de seu próprio coração de forma isolada. Não caia na tentação da tão sonhada autonomia e poder pregado pela era atual. Assim como a União Soviética ruiu, toda essa onda de liberdade se cairá em pedaços justamente por não ter com quem contar – a própria ignorância e o desprezo pelas outras pessoas produz situações desse tipo. É uma falsa liberdade. A carga emocional e física toma todos aqueles que não dividem as atividades. Não precisamos ficarmos sozinhos neste mundo. 
+                                            Falando em não estarmos sozinhos, temos um Deus grandioso que está em contato conosco diariamente. Além disso, podemos contar com muitos de nossos amigos. A prática da comunhão é essencial em nossa vida (não confunda comunhão com dependência); não é algo nada fácil, mas te certifico de que quando dividimos a carga sobre nós com Cristo, a vida consegue ser muito mais radiante. Bora se debruçar nos braços do Pai? Te espero lá.
+                                    </p>
+
+                            </div>
+
+                            <div class="col-6">
+                                    <p>Chegamos ao fim do poço, aquele problema nos consumiu por completo. A força que tínhamos não se faz mais presente e olhamos para o alto, buscando, quem sabe, um “milagre”. Agimos por nossa própria conta; com o advento da dor vemos que não somos capazes. A quem iremos recorrer?</p>
+                                    <p>
+                                            Por conta da ignorância e dureza de nossos próprios corações, tomamos à frente de praticamente todas as situações. O mundo nos empurra para a sensação de autonomia e superioridade. Utilizam a premissa do dinheiro, méritos e entre outras coisas mais. Bom, quando temos de morrer, morremos, não? O que difere essas pessoas no topo do poder é o quanto de conforto terá em seus últimos dias. O destino final é determinado por Deus, não há quem mude. 
+                                            Entregue seus problemas a Deus. Você não tem a obrigação de resolver todas as mazelas do mundo e de seu próprio coração de forma isolada. Não caia na tentação da tão sonhada autonomia e poder pregado pela era atual. Assim como a União Soviética ruiu, toda essa onda de liberdade se cairá em pedaços justamente por não ter com quem contar – a própria ignorância e o desprezo pelas outras pessoas produz situações desse tipo. É uma falsa liberdade. A carga emocional e física toma todos aqueles que não dividem as atividades. Não precisamos ficarmos sozinhos neste mundo. 
+                                            Falando em não estarmos sozinhos, temos um Deus grandioso que está em contato conosco diariamente. Além disso, podemos contar com muitos de nossos amigos. A prática da comunhão é essencial em nossa vida (não confunda comunhão com dependência); não é algo nada fácil, mas te certifico de que quando dividimos a carga sobre nós com Cristo, a vida consegue ser muito mais radiante. Bora se debruçar nos braços do Pai? Te espero lá.
+                                    </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>          
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <!--AQUI FICA O RODAPÉ DO SITE-->
+    <footer id="footer" class="footer navbar-fixed-bottom bg-gradient-light">
+        <div class="container">
+            <div class="row">
+                    <div class="col-sm-3 justify-content-center">
+                            <a class="navbar-brand h1 mb-0 text-dark" href="index.html"><img src="images/web-logo.png" width="200" height="100" alt="Página inicial"></a>
+                    </div>
+    
+                    <div class="col-sm-3 text-primary justify-content-center mt-3">
+
+                            NOS SIGA NAS REDES SOCIAIS!
+                            <div class="row justify-content-center">
+                                <a class="icone" href="https://www.facebook.com/umavidacomcristo" target="_blank">
+                                    <img src="images/facebookLogo.png" width="20" height="20" alt="facebook">
+                                </a>
+                                
+                                <a class="icone" href="https://www.instagram.com/umavidacomcristo/" target="_blank">
+                                    <img src="images/igLogo.png" width="20" height="20" alt="instagram">
+                                </a>
+
+                                <a class="icone" href="https://twitter.com/UmaCristo" target="_blank">
+                                    <img src="images/twitterLogo.png" width="20" height="20" alt="twitter">
+                                </a>
+                            </div>
+                    </div>
+
+                    <div class="col-sm-6 justify-content-center mt-3">
+                            <div class="text-primary">
+                                <h4 class="text-primary">
+                                    Compartilhe o amor de Cristo!
+                                </h4>
+
+                                <p class="text-muted"> Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que se não vêem.Hebreus 11:1</p>
+                            </div>
+                    </div>
+                    
+            </div> 
+              
+        </div>
+        <div class="row justify-content-center text-muted bg-dark text-light">Feito com <i class="em em-heart"></i></div>
+        
+    </footer>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/teste.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" ></script>
+  </body>
+</html>
