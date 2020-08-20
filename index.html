@@ -42,7 +42,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="images/web-logo2.png"  width="170px" height="80px" alt="logo da página">
+            <img src="images/web-logo2.png"  width="150px" height="70px" alt="logo da página">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -63,13 +63,12 @@
                 <a class="nav-link" href="#">Contato</a>
               </li>
           </ul>
-          <div class="col-sm-3">
+          <div class="col-sm-7">
             <span class="navbar-text">
                 <h6 class="text-primary">Alguém pediu um versículo?! Aqui vai um</h6>
                 <p id="dayVerse">Carregando...</p>
               </span>
           </div>
-
         </div>
       </nav>
         
@@ -223,6 +222,18 @@
     </footer>
 
 
+    <!--VLibras plug in-->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
