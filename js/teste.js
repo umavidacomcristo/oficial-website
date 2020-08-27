@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-//jsonObj = loadNewVerse();
+jsonObj = loadNewVerse();
 //console.log(jsonObj)
 insertVerse(jsonObj);
 });
