@@ -1,10 +1,8 @@
 $(document).ready(function(){
     
-jsonObj = loadNewVerse();
+//jsonObj = loadNewVerse();
 //console.log(jsonObj)
 insertVerse(jsonObj);
-
-    
 });
 
 function loadNewVerse(){//método carrega versículo aleatório da API
@@ -20,3 +18,8 @@ function insertVerse(jsonObject){//método insere versículo na tag com id 'dayV
     message = `${jsonObject.text}  ${jsonObject.book.name} ${jsonObject.chapter}:${jsonObject.number}`
     $("#dayVerse").text(message);
 }
+
+//Método para navbar
+$('.nav-link').on('click',function() { //quando um link é clicado, toda a navbar é encolhida
+    $('.navbar-collapse').collapse('hide');
+  });

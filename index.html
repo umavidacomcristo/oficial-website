@@ -6,29 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--
+<link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    -->
+    
 
-    <!-- Meu css modificado-->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css"></link>
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!-- Meu css modificado
+          <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css"></link>
+    -->
+
     <title>Uma Vida com Cristo</title>
 
 
 	<!-- Adição de favicon-->
-<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-<link rel="manifest" href="images/favicon/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img//favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -38,11 +43,11 @@
 
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navBarMain" data-offset="10">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav id="navBarMain" class="navbar  navbar-pills fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="images/web-logo2.png"  width="150px" height="70px" alt="logo da página">
+            <img src="img/web-logo2.png"  width="150px" height="70px" alt="logo da página">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,21 +55,23 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conteúdo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artigos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#content">Conteúdo</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contato</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#join">Quero ser um voluntário</a>
+            </li>
           </ul>
           <div class="col-sm-7 d-flex justify-content-end">
             <span class="navbar-text">
@@ -85,8 +92,8 @@
                         <div class="w-100 text-white">
                           <h1 class="display-4">Deseja falar de Cristo ao mundo?</h1>
                           <p class="lead mb-0 my-4">
-                                <div class="row justify-content-center mx-2 my-2">
-                                        <span class="border border-primary bg-primary rounded"><h2 class="text-light mx-2 my-2">Junte-se a nós!</h2></span>
+                                <div class="row justify-content-center mx-1 my-1">
+                                        <a href="#join" class="btn bg-primary text-light mx-1 my-1"><h4>Junte-se a nós!</h4></a>
                                   </div>                        
                         </div>
                       </div>
@@ -94,15 +101,14 @@
                   </header>
 
                   <div class="container">
-
                     <section id="content">
                       <span class="display-4 d-flex justify-content-center text-primary border-bottom border-primary font-weight-bold">Conteúdos</span>
                       <div class="display-5 d-flex justify-content-center  text-dark mx-2">O que acha de aprender um pouco mais sobre Deus? Vamos nessa!</div>
                       
-                      <div class="row mx-5 my-5  d-flex justify-content-center align-items-center">
+                      <div class="row mx-5  d-flex justify-content-center align-items-center">
 
                         <div class="col-md-4 d-flex justify-content-center">
-                          <img src="images/content.jpg" alt="mulher segurando um telefone tendo uma ideia" srcset="" width="300px" height="300px">
+                          <img src="img/content.jpg" alt="mulher segurando um telefone tendo uma ideia" srcset="" width="300px" height="300px">
                         </div>
 
                         <div class="col-md-8">
@@ -111,7 +117,7 @@
                           <div class="card-body">
                             <h5 class="card-title text-primary font-weight-bold">Leitura bíblica</h5>
                             <p class="card-text">Mantenha um hábito diário de leitura da palavra de Deus</p>
-                            <a href="error.html" class="btn bg-primary text-light">Acessar</a>
+                            <a href="public/error404.html" class="btn bg-primary text-light">Acessar</a>
                           </div>
                         </div>
                         
@@ -121,7 +127,7 @@
                           <div class="card-body">
                             <h5 class="card-title text-primary font-weight-bold">Artigos</h5>
                             <p class="card-text">Textos separados por categorias para aprofundar sua relação com Deus</p>
-                            <a href="error.html" class="btn bg-primary text-light">Acessar</a>
+                            <a href="public/error404.html" class="btn bg-primary text-light">Acessar</a>
                           </div>
                         </div>
                      
@@ -131,7 +137,7 @@
                           <div class="card-body">
                             <h5 class=" card-title text-primary font-weight-bold">Estudos bíblicos</h5>
                             <p class="card-text">Obtenha estudos bíblicos simples e muitos resumos!</p>
-                            <a href="error.html" class="btn bg-primary text-light">Acessar</a>
+                            <a href="public/error404.html" class="btn bg-primary text-light">Acessar</a>
                           </div>
                         </div>
 
@@ -195,24 +201,66 @@
                       <div class="display-5 d-flex justify-content-center  text-dark mx-2">Entre em contato conosco, será um prazer!</div>
                                                 <div class="row justify-content-center">
                                                         <a class="icone img" href="https://www.facebook.com/umavidacomcristo" target="_blank">
-                                                            <img src="images/facebookLogo.png" width="50" height="50" alt="facebook">
+                                                            <img src="img/facebookLogo.png" width="50" height="50" alt="facebook">
                                                         </a>
                                                         
                                                         <a class="icone img" href="https://www.instagram.com/umavidacomcristo/" target="_blank">
-                                                            <img src="images/igLogo.png" width="50" height="50" alt="instagram">
+                                                            <img src="img/igLogo.png" width="50" height="50" alt="instagram">
                                                         </a>
                                             
                                                         <a class="icone img" href="https://twitter.com/UmaCristo" target="_blank">
-                                                            <img src="images/twitterLogo.png" width="50" height="50" alt="twitter">
+                                                            <img src="img/twitterLogo.png" width="50" height="50" alt="twitter">
                                                         </a>
                                                     </div>
-
-
-                       <div class="row  mx-2 d-flex justify-content-center">
-                        <img src="/images/footer.png" alt="pessoas se abraçando" width="300px" height="180px">
-                           </div>
-
                     </section>
+
+
+                    <section id="join">
+                      <span class="display-4 d-flex justify-content-center text-primary border-bottom border-primary font-weight-bold">Quero ser um voluntário</span>
+                      <div class="display-5 d-flex justify-content-start  text-dark mx-2">Mesmo?! Será magnifico ter você com a gente! Se você tem algumas dessas habilidades, entre em contato conosco e vamos propagar os ensinos de Deus!</div>
+                      <div class="row d-flex justify-content-center">   
+
+                        <div class="col-md-5 d-flex justify-content-start">     
+                          <ul class="list-group">
+                            <li class="list-group-item bg-primary rounded rounded-pill text-light my-2">Editor(a) de conteúdo textual</li>
+                            <li class="list-group-item bg-primary rounded rounded-pill text-light my-2">Designer gráfico</li>
+                            <li class="list-group-item bg-primary rounded rounded-pill text-light my-2">Desenvolvedor(a) web</li>
+                            <li class="list-group-item bg-primary rounded rounded-pill text-light my-2">Ama cantar, ministrar louvores? Vem logo!</li>
+                          </ul>  
+                        </div>
+                      </div>
+
+                      <form action="https://formspree.io/xgenqevp" method="POST">
+                        <div class="row mx-5">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Your name:</label>
+                                    <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="My name">
+                                  </div>
+                            </div>
+
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Your email address:</label>
+                                    <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row-md-5 mx-5">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Text your message" rows="3"></textarea>
+                              </div>
+                              <button type="submit" value="Send" class="btn btn-primary">Send</button>
+                        </div>
+                        
+                      </form>
+
+                      <div class="row  mx-5 d-flex justify-content-center">
+                        <img src="img/footer.png" alt="pessoas se abraçando" width="300px" height="180px">
+                           </div>
+                      </section>
+
 
                   </div> 
 
@@ -221,7 +269,7 @@
         <div class="container">
             <div class="row">
                     <div class="col-md-3 justify-content-center">
-                            <a class="navbar-brand h1 mb-0 text-dark" href="index.html"><img src="images/web-logo.png" width="200" height="100" alt="Página inicial"></a>
+                            <a class="navbar-brand h1 mb-0 text-dark" href="index.html"><img src="img/web-logo.png" width="200" height="100" alt="Página inicial"></a>
                     </div>
     
                     <div class="col-md-3 text-primary justify-content-center mt-3">
@@ -229,15 +277,15 @@
                             NOS SIGA NAS REDES SOCIAIS!
                             <div class="row justify-content-center">
                                 <a class="icone" href="https://www.facebook.com/umavidacomcristo" target="_blank">
-                                    <img src="images/facebookLogo.png" width="20" height="20" alt="facebook">
+                                    <img src="img/facebookLogo.png" width="20" height="20" alt="facebook">
                                 </a>
                                 
                                 <a class="icone" href="https://www.instagram.com/umavidacomcristo/" target="_blank">
-                                    <img src="images/igLogo.png" width="20" height="20" alt="instagram">
+                                    <img src="img/igLogo.png" width="20" height="20" alt="instagram">
                                 </a>
 
                                 <a class="icone" href="https://twitter.com/UmaCristo" target="_blank">
-                                    <img src="images/twitterLogo.png" width="20" height="20" alt="twitter">
+                                    <img src="img/twitterLogo.png" width="20" height="20" alt="twitter">
                                 </a>
                             </div>
                     </div>
@@ -274,9 +322,17 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
+
+    <!--
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js" ></script>
     <script src="js/teste.js"></script>
+    -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
   </body>
 </html>
