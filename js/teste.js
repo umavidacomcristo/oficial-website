@@ -3,6 +3,7 @@ $(document).ready(function(){
 jsonObj = loadNewVerse();
 //console.log(jsonObj)
 insertVerse(jsonObj);
+//algmacoisa
 });
 
 function loadNewVerse(){//método carrega versículo aleatório da API
